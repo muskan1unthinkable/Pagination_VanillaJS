@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+      }
+
+      td,
+      tr {
+        border: 1px solid #dddddd;
+        text-align: left;
+      }
+
+      #rollhead {
+        width: 6%;
+      }
+      #rollname {
+        width: 18%;
+      }
+      button {
+        width: 50px;
+        height: 38px;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="tab">
+      <tr>
+        <td id="rollhead">Roll No</td>
+        <td id="rollname">Name</td>
+        <td id="rollemail">Email Id</td>
+      </tr>
+    </table>
+    <table id="table">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <button id="first"><<</button>
+    <button id="prev"><</button>
+    <button id="pageno">1</button>
+    <button id="next">></button>
+    <button id="last">>></button>
+
+    <script src="list.js"></script>
+  </body>
+</html>
